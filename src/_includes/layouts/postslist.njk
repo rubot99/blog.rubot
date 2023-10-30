@@ -6,7 +6,7 @@
       <p class="pb-4">{{ post.data.description }}</p>            
       <div class="tags pb-4">
         {%- for tag in post.data.tags | filterTagList -%}
-          <span class="tag is-info">#{{ tag }}</span>
+          <span class="tag is-info">{{ tag }}</span>
         {%- endfor -%}        
       </div>
     </div>  

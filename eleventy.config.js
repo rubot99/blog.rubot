@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 
+const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
 module.exports = function(eleventyConfig) {
@@ -7,6 +8,7 @@ module.exports = function(eleventyConfig) {
 		"./public/": "/"
 	});
 
+	eleventyConfig.addPlugin(pluginDrafts);
 	eleventyConfig.addPlugin(pluginImages);
 
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
