@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>rubot</title>
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="/css/baseStyles.css">
+  </head>
+  <body>
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+      <div class="container grid">
+        <a href="/index.html"><h1 class="title is-1">
+          rubot
+        </h1></a>
+        <p class="subtitle">
+          thoughts from a software engineer
+        </p>
+        <nav class="level">
+          <div class="level-left">
+            <p class="level-item"><a href="/posts">Posts</a></p>
+            <p class="level-item"><a href="/about">About</a></p>
+          </div>
+          <div class="level-right">
+            <p class="level-item"><a class="link" target="_blank" rel="noopener" aria-label="Github" href="https://github.com/fragosti"><i data-feather="github"></i></a></p>
+            <p class="level-item"><a class="link" target="_blank" rel="noopener" aria-label="Github" href="https://github.com/fragosti"><i data-feather="twitter"></i></a></p>
+          </div>
+        </nav>
+        <hr style="padding-top: 0; margin-top: 0;">
+
+        <main id="skip">
+          
+<div class="section is-paddingless-horizontal" style="padding-top: 0; margin-top: 0;">
+    <h1 class="title is-2">Experimenting with Fedora</h1>
+</div>
+
+<div class="content is-medium">
+  <p>So I've decided to try and restart my Linux learning. So far I've tried using Debian, Ubuntu, or arch based Linux distros. I've normally gravitated towards Ubuntu based distro that used XFCE. Normally because I've found a lot of help when trying to set up Wi-Fi cards. Recently I saw some YouTube videos reviewing Fedora 35. I've never really used Fedora, so thought I would be give it a try. So this hopefully will be the start of my journey experimenting with Fedora</p>
+<p><picture><source type="image/avif" srcset="/img/degMhOPZfJ-600.avif 600w"><source type="image/webp" srcset="/img/degMhOPZfJ-600.webp 600w"><img alt="Fedora" loading="lazy" decoding="async" src="/img/degMhOPZfJ-600.png" width="600" height="182"></picture></p>
+<p>Let me start by saying I've tried quite distros based on Debian, Ubuntu and arch. I've tried a vanilla arch installation. I enjoyed the learning process, but this means I saw a couple of old / low spec laptops. So I decided to try and install Fedora on one of these laptops. I needed to get Fedora and Wi-Fi running plus it needed to be useable and not too slow. The machine I picked was the HP Stream book (pictured below). The laptop has an Intel Celeron processor, 2 GB RAM and 32 GB MMC drive.</p>
+<p><picture><source type="image/avif" srcset="/img/qkSNSpywGG-573.avif 573w"><source type="image/webp" srcset="/img/qkSNSpywGG-573.webp 573w"><img alt="HP Stream 11" loading="lazy" decoding="async" src="/img/qkSNSpywGG-573.jpeg" width="573" height="430"></picture></p>
+<p>I managed to install Fedora without a problem and after the first reboot the laptop seemed quite response. The Wi-Fi adapter wasn't working out of the box since the machine had a Broadcom adapter. After a bit of googling and trying a few things I managed to get the Wi-Fi working. So next steps are to learn how to use Fedora and get used to it as a system. Below are the steps I used to get the Wi-Fi driver working.</p>
+<ul>
+<li>Update system - sudo dnf update</li>
+<li>Add rpmfusion repositories - sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm</li>
+<li>Install drivers - sudo dnf install kmod-wl akmods akmod-wl</li>
+<li>Install kernel-devel - sudo dnf install kernel-devel</li>
+<li>Reboot</li>
+</ul>
+<p>The above got my Wi-Fi adapter working. I got the steps from the following <a href="https://www.thetestspecimen.com/posts/broadcom-wifi-modules-fedora/">blog post on thetestspeciment.com</a></p>
+
+</div>
+
+
+        
+
+<nav class="pagination is-centered" role="navigation" aria-label="pagination">
+  <a class="pagination-previous">Previous</a>
+  <a class="pagination-next">Next</a>
+</nav>        
+        </main>
+      </div>   
+         
+    </section>
+  <footer class="footer is-white">
+    <div class="content has-text-centered">
+      <p>Copyright 2023</p>
+    </div>
+  </footer>
+  <script>
+    feather.replace();
+  </script>
+  </body>
+</html>
