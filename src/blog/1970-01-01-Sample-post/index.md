@@ -8,7 +8,7 @@ tags:
     - tag2
 ---
 
-{% image "./lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg", "Reto technology devices" %}
+{% image "./lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg", "Retro technology devices" %}
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui minus corrupti molestiae nihil, similique voluptatum aliquid quis commodi necessitatibus assumenda.
 
