@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>rubot</title>
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="/css/baseStyles.css">
+  </head>
+  <body>
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+      <div class="container grid">
+        <a href="/index.html"><h1 class="title is-1">
+          rubot
+        </h1></a>
+        <p class="subtitle">
+          thoughts from a software engineer
+        </p>
+        <nav class="level">
+          <div class="level-left">
+            <p class="level-item"><a href="/posts">Posts</a></p>
+            <p class="level-item"><a href="/about">About</a></p>
+          </div>
+          <div class="level-right">
+            <p class="level-item"><a class="link" target="_blank" rel="noopener" aria-label="Github" href="https://github.com/fragosti"><i data-feather="github"></i></a></p>
+            <p class="level-item"><a class="link" target="_blank" rel="noopener" aria-label="Github" href="https://github.com/fragosti"><i data-feather="twitter"></i></a></p>
+          </div>
+        </nav>
+        <hr style="padding-top: 0; margin-top: 0;">
+
+        <main id="skip">
+          
+<div class="section is-paddingless-horizontal" style="padding-top: 0; margin-top: 0;">
+    <h1 class="title is-2">Setting Up Mercurial Dev Shop</h1>
+</div>
+
+<div class="content is-medium">
+  <p><img src="./sigmund-zBfBXHCaLmk-unsplash.jpg" alt="Shows a software development office, with developers coding."></p>
+<p>For a long time I have wanted to use a distributed source control management tool at work. I have looked at both Mercurial and Git and decided that I would like try Mercurial. So recently I have had the opportunity to use Mercurial on a new project.</p>
+<!--more-->
+<p>I have used Visual Source Safe briefly and have mostly used Subversion with TortoiseSVN. So I found it quite easy to switch to TortoiseHg. I am still getting to grips with Mercurial, but I have really enjoyed using it and think I will permanently move to using Mercurial.</p>
+<p>Finally I wanted to setup a stable repository for the project so that I could push my changes to a Mercurial server and in the future setup cruise control to pull the changes from a central location. Also it would allow my manager to view the changes without having TortosieHg installed on his machine.</p>
+<p>Since we are a Microsoft dev shop, I decided it would be easier to setup Mercurial on IIS. I found quite a few posts on setting up Mercurial on IIS 7, but had quite a difficult time getting it to work. I have also found differences in the setup process for Windows Server 2008 R2 (64 bit) and Windows Server 2008 (32 bit). So in this post I am going to list the blog articles that helped me to setup a Mercurial server successfully.</p>
+<p>I started off by experimenting on a Windows Server 2008 (32 bit) VM (Virtual Machine). After many attempts I finally found a combination of two blogs post that helped me get Mercurial running.</p>
+<ul>
+<li>Jake Murzy’s Blog – Installing and Setting Up Mercurial on Windows/IIS7 running Python</li>
+<li>Matt Hawley – Setting up Mercurial server in IIS7 using a ISAPI module</li>
+</ul>
+<blockquote>
+<p>Note: I didn’t have a problem installing isapi-wsgi on the virtual machine since the virtual machine had the MSVCR71.dll file in the System32 folder.</p>
+</blockquote>
+<p>VM Details: 32-bit Microsoft Windows Server 2008, 1GB RAM and 16GB HDD running on VMWare server.</p>
+<p>The Virtual Machine also had the following software products installed:</p>
+<ul>
+<li>Mozilla Firefox/Chrome</li>
+<li>7 zip</li>
+<li>Notepad++</li>
+<li>VM Ware tools</li>
+<li>IIS 7 with IIS 6 Management Compatibility and Application development services installed</li>
+</ul>
+<p>After following the instructions from the two posts I got the Mercurial web interface working. However when I came to install it on a server running Windows 2008 R2 (64 bit), I couldn’t seem to get it to work. So after googling a bit I found the following post which helped me get Mercurial setup on my server.</p>
+<p>Stacking Code – <a href="http://stackingcode.com/blog/2011/02/24/running-a-mercurial-server-on-iis-7-5-windows-server-2008-r2">Running a Mercurial Server on IIS 7.5</a></p>
+
+</div>
+
+
+        
+
+<nav class="pagination is-centered" role="navigation" aria-label="pagination">
+  <a class="pagination-previous">Previous</a>
+  <a class="pagination-next">Next</a>
+</nav>        
+        </main>
+      </div>   
+         
+    </section>
+  <footer class="footer is-white">
+    <div class="content has-text-centered">
+      <p>Copyright 2023</p>
+    </div>
+  </footer>
+  <script>
+    feather.replace();
+  </script>
+  </body>
+</html>
