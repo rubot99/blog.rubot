@@ -1,12 +1,14 @@
 ---
-tags: ["devexpress","gridview","code","c#","development"]
-categories: ["development","code","c#"]
-date: "2011-08-05T00:00:00Z"
 title: "Using Devexpress Gridview Control"
-keywords: ["development","code","c#"]
+description: "Summary or brief description of the post to be displayed"
+date: 2011-08-05
+tags: 
+    - development
+    - code
+    - c#
 ---
 
-![Shows windows computer destop with a software installation window.](./jeremy-zero-Vu2R3PqstrU-unsplash.jpg)
+{% image "./jeremy-zero-Vu2R3PqstrU-unsplash.jpg", "Shows windows computer destop with a software installation window" %}
 
 This is another post in my series of DevExpress controls that I use and like. In this post I will be looking at the ASPxGridView control. This control is one of my most used and favourite DevExpress controls. The functionality that you get straight out of the box is impressive to say the least. I’m able to add functionality that is extremely useful to the users with very little effort or code.
 
@@ -25,6 +27,10 @@ on the database side. I should mention that depending on what you do with data e
 
 The features that I like the best is the data grouping functionality and the reason for this is that it allows users to group on any column they need to. The first screen shot shows the default gridview without any grouping. The second screen shot shows what happens when the user groups on one of the columns and the third screen shot shows what happens when the grouping is on two different columns.
 
-![Devexpress Gridview Control.](./default3.png)
-![Data Grouping example 1.](./groupontwocolumns1.png)
-![Data Grouping example 2.](./groupononecolumn2.png)
+
+{% image "./default3.png", "Devexpress Gridview Control" %}
+
+{% image "./groupontwocolumns1.png", "Data Grouping example 1" %}
+
+{% image "./groupononecolumn2.png", "Data Grouping example 2" %}
+

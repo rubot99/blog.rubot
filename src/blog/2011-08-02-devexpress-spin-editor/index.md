@@ -1,12 +1,14 @@
 ---
-tags: ["devexpress","spin editor","code","c#","development"]
-categories: ["development","code","c#"]
-date : "2011-08-02T00:00:00Z"
 title: "Using DevExpress ASP.Net Spin Editor Control"
-keywords: ["development","code","c#"]
+description: "Summary or brief description of the post to be displayed"
+date: 2011-08-02
+tags: 
+    - development
+    - code
+    - c#
 ---
 
-![Shows windows computer destop with a software installation window.](./jeremy-zero-Vu2R3PqstrU-unsplash.jpg)
+{% image "./jeremy-zero-Vu2R3PqstrU-unsplash.jpg", "Shows windows computer destop with a software installation window" %}
 
 The DevExpress ASP.Net spin editor control is one of those simple but extremely useful controls. I tend to use this control a lot in my projects. It basically is a text input field which only allows the user to enter numeric data.
 I know on the face of it does not seem revolutionary, but a few things I like about the control are:
@@ -24,4 +26,5 @@ Below is the markup for the spin edit control.
     <SpinButtons Position="Left" ShowLargeIncrementButtons="true"></SpinButtons>
 </dx:ASPxSpinEdit>
 ```
-![ASP.Net Spin Editor Control.](./spinedit.png)
+
+{% image "./spinedit.png", "ASP.Net Spin Editor Control" %}
