@@ -1,16 +1,17 @@
 ---
-tags: ["c#","development","code"]
-categories: ["development","code"]
-date: "2012-07-20T00:00:00Z"
 title: "Handled Unhandled Exceptions"
-keywords: ["development","code","c#"]
+description: "Summary or brief description of the post to be displayed"
+date: 2012-07-20
+tags: 
+    - development
+    - code
+    - c#
 ---
 
-![Close up of computer screen showing code.](./markus-spiske-4T5MTKMrjZg-unsplash.jpg)
+{% image "./markus-spiske-4T5MTKMrjZg-unsplash.jpg", "Close up of computer screen showing code" %}
 
 ‘Handled Unhandled Exception’ sounds like an oxy-moron, but let me explain what I mean.
 I’m sure most developers have seen the code below at some point in their careers.
-<!--more-->
 
 ```
 

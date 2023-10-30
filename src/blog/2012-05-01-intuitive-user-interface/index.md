@@ -1,16 +1,16 @@
 ---
-tags: ["ux","development"]
-categories: ["development","ux"]
-date: "2012-05-01T00:00:00Z"
 title: "Is Intuitive User Interface Design Actually Subjective"
-keywords: ["development","ux","windows"]
+description: "Summary or brief description of the post to be displayed"
+date: 2012-05-01
+tags: 
+    - development
+    - ux
+    - windows
 ---
 
-![UI Story board showing screen designs.](./halgatewood-com-tZc3vjPCk-Q-unsplash.jpg)
+{% image "./halgatewood-com-tZc3vjPCk-Q-unsplash.jpg", "UI Story board showing screen designs" %}
 
 I have been using Microsoft Essentials as my antivirus program ever since it was released. I really like the clean and simple user interface and the small memory footprint. I also recommend it to everyone. However recently I noticed that I hadn’t run a system scan in a while and the Microsoft Essential icon had turned yellow. 
-
-<!--more-->
 
 When I opened Microsoft Essentials, the main window had a large yellow ‘Scan Now’ button. Since I hadn’t run a system scan for a while, I thought I should run a full scan instead of a quick scan. So I selected full scan from the scan options and then clicked the yellow ‘Scan Now’ button. What I expected to happen now was that Microsoft Essentials would start a full system scan, however what happened was a quick scan was started. This surprised me and at first I assumed that I had made a mistake. So after investigating this for a few weeks I realised that when you click the yellow ‘Scan Now’ button it always starts a quick scan regardless of what scan option was selected.
 
@@ -24,18 +24,19 @@ Below are screenshots of my process:
 
 1. Open Microsoft Essentials when the icon has turned yellow.
 
-![Microsoft essentials program window.](./sc12.jpg)
+{% image "./sc12.jpg", "Microsoft essentials program window" %}
 
 2. Main window opens with the large yellow ‘Scan Now’ button visible and the quick scan option is selected by default. I then select the full scan option and click the yellow ‘Scan Now’ button.
 
-![Microsoft essentials program window.](./sc2.jpg)
-![Microsoft essentials program window.](./sc3.jpg)
+
+{% image "./sc2.jpg", "Microsoft essentials program window" %}
+{% image "./sc3.jpg", "Microsoft essentials program window" %}
 
 3. You notice that a quick scan has been started.
 
-![Microsoft essentials program window.](./sc4.jpg)
+{% image "./sc4.jpg", "Microsoft essentials program window" %}
 
 4. After cancelling the scan I made sure the full scan option was selected and then clicked on the regular scan now button. This time a full scan is started.
 
-![Microsoft essentials program window.](./sc5.jpg)
-![Microsoft essentials program window.](./sc6.jpg)
+{% image "./sc5.jpg", "Microsoft essentials program window" %}
+{% image "./sc6.jpg", "Microsoft essentials program window" %}

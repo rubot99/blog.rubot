@@ -1,12 +1,14 @@
 ---
-tags: ["redgate", "sql", "conference"]
-categories: ["conference","development"]
-date: "2012-07-21T00:00:00Z"
 title: "Red Gate Sql In The City London"
-keywords: ["tech", "sql", "redgate"]
+description: "Summary or brief description of the post to be displayed"
+date: 2012-07-21
+tags: 
+    - tech
+    - sql
+    - redgate
 ---
 
-![Shows a conference with stage and people.](./product-school-dJICd7b_LlE-unsplash.jpg)
+{% image "./product-school-dJICd7b_LlE-unsplash.jpg", "Shows a conference with stage and people" %}
 
 Last Saturday I attended the Red Gate ‘SQL in the City’ event in London. It was one of the best free event that I have been to. The event was very well organised and had a great line up of sessions. There were three tracks of sessions DBA, Red Gate and Developer and I would have liked to attend all of them, but had to choose the ones I really wanted to attend. 
 
@@ -25,4 +27,4 @@ After lunch I attended ‘Deployment Horrors and How to avoid them’ by Dave Ba
 
 Overall it was a great event and I really enjoyed it and will definitely be looking out for the next ‘SQL in the City’ event.
 
-![Shows a sql prompt cheat sheet mug.](./sqlPromptMug.jpg)
+{% image "./sqlPromptMug.jpg", "Shows a sql prompt cheat sheet mug" %}

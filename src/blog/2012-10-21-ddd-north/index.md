@@ -1,18 +1,18 @@
 ---
-tags: [".net","development", "conference"]
-categories: ["conference","development"]
-date: "2012-10-21T00:00:00Z"
 title: "Ddd North 2012"
-keywords: ["tech", "ddd", "north"]
+description: "Summary or brief description of the post to be displayed"
+date: 2012-10-21
+tags: 
+    - tech
+    - ddd
+    - north
 ---
 
-![Shows a conference with stage and people.](./product-school-ZLdKgqJeERM-unsplash.jpg)
+{% image "./product-school-ZLdKgqJeERM-unsplash.jpg", "Shows a conference with stage and people" %}
 
 Last Saturday I attended the DDD North 2 event at Bradford Business School. It was another excellent event. As usual it was well organised and with an excellent line up of talks. This was my third DDD event so far and I thoroughly enjoyed it. I have to admit I wasn’t sure if I wanted to go this year since I didn’t think I would be interested in many of the talk, but I’m glad I did go since some of the talks that I thought I wouldn’t be interested were really useful and interesting.
 
-<!--more-->
-
-![External image of bradford university business school.](./bradfordBusinessSchool.jpg)
+{% image "./bradfordBusinessSchool.jpg", "External image of bradford university business school" %}
 
 It was an early start on Saturday with a few minor car troubles, which was sorted out quite quickly. I got to the event a little before registration and the venue was very nice. Once there I grabbed a coffee and scouted out the rooms where the talks were being held.
 
@@ -30,7 +30,7 @@ I have attended other talks by Liam and have always found his talks to be very i
 
 I have attended two other talks by Nathan, SOLID principle and Kanban which were both excellent talks. Since I have heard about Selenium, but never really investigated it. I thought this might be a good introduction. The talk was very good, Nathan explained how to use the Selenium IDE and WebDriver for creating automated regression tests.
 
-![Selenium talk by nathan gloyn.](./seleniumTalk.jpg)
+{% image "./seleniumTalk.jpg", "Selenium talk by nathan gloyn" %}
 
 ##### ‘Web Sockets and SignalR – Building the Real Time Interactive Web’ – Chris Alcock
 
@@ -44,4 +44,4 @@ There was a Grok talk on OutSystems which looked really interesting and would be
 
 Overall it was an excellent event and I took away a lot from the session. I am definitely going to use the Async patterns within my applications in the future and am going to look more into PowerShell and WinRT applications.
 
-![Picture of the DDD North 2012 Event Poster.](./dddNorth2012Event.jpg)
+{% image "./dddNorth2012Event.jpg", "Picture of the DDD North 2012 Event Poster" %}

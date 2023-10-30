@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>rubot</title>
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="/css/baseStyles.css">
+  </head>
+  <body>
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+      <div class="container grid">
+        <a href="/index.html"><h1 class="title is-1">
+          rubot
+        </h1></a>
+        <p class="subtitle">
+          thoughts from a software engineer
+        </p>
+        <nav class="level">
+          <div class="level-left">
+            <p class="level-item"><a href="/posts">Posts</a></p>
+            <p class="level-item"><a href="/about">About</a></p>
+          </div>
+          <div class="level-right">
+            <p class="level-item"><a class="link" target="_blank" rel="noopener" aria-label="Github" href="https://github.com/fragosti"><i data-feather="github"></i></a></p>
+            <p class="level-item"><a class="link" target="_blank" rel="noopener" aria-label="Github" href="https://github.com/fragosti"><i data-feather="twitter"></i></a></p>
+          </div>
+        </nav>
+        <hr style="padding-top: 0; margin-top: 0;">
+
+        <main id="skip">
+          
+<div class="section is-paddingless-horizontal" style="padding-top: 0; margin-top: 0;">
+    <h1 class="title is-2">Is Intuitive User Interface Design Actually Subjective</h1>
+</div>
+
+<div class="content is-medium">
+  <p><picture><source type="image/avif" srcset="/img/vn0cLXQevx-5184.avif 5184w"><source type="image/webp" srcset="/img/vn0cLXQevx-5184.webp 5184w"><img alt="UI Story board showing screen designs" loading="lazy" decoding="async" src="/img/vn0cLXQevx-5184.jpeg" width="5184" height="3456"></picture></p>
+<p>I have been using Microsoft Essentials as my antivirus program ever since it was released. I really like the clean and simple user interface and the small memory footprint. I also recommend it to everyone. However recently I noticed that I hadn’t run a system scan in a while and the Microsoft Essential icon had turned yellow.</p>
+<p>When I opened Microsoft Essentials, the main window had a large yellow ‘Scan Now’ button. Since I hadn’t run a system scan for a while, I thought I should run a full scan instead of a quick scan. So I selected full scan from the scan options and then clicked the yellow ‘Scan Now’ button. What I expected to happen now was that Microsoft Essentials would start a full system scan, however what happened was a quick scan was started. This surprised me and at first I assumed that I had made a mistake. So after investigating this for a few weeks I realised that when you click the yellow ‘Scan Now’ button it always starts a quick scan regardless of what scan option was selected.</p>
+<p>Initially I thought this wasn’t intuitive, but after thinking about it more I started to wonder, if actually intuitiveness was subjective. Would another user actually expect that the application would run a quick scan when they clicked on the yellow ‘Scan Now’ button regardless of the scan option selected? Is there enough of a distinction between the regular scan now section and high priority yellow ‘Scan Now’ button to explain the difference of scan types that will be executed?</p>
+<p>If I was designing this process what I would do is check the scan type selected and run that particular scan. I agree that when a system scan hasn’t been run for a long time you would want to alert the user (large yellow button) and you would want the user to run a complete system scan. Running a quick system scan makes sense since it would take less time to complete and on a psychological level there is a higher probability that the scan would complete before the user decided to cancel it. I think this could be achieved by the fact that the quick scan is selected by default in the scan options section and if the user has made the decision to perform a full scan they expect it will take longer than usual.</p>
+<p>I would be quite interested in what anyone else thinks.</p>
+<p>Below are screenshots of my process:</p>
+<ol>
+<li>Open Microsoft Essentials when the icon has turned yellow.</li>
+</ol>
+<p><picture><source type="image/avif" srcset="/img/ePRxCUXvpN-277.avif 277w"><source type="image/webp" srcset="/img/ePRxCUXvpN-277.webp 277w"><img alt="Microsoft essentials program window" loading="lazy" decoding="async" src="/img/ePRxCUXvpN-277.jpeg" width="277" height="227"></picture></p>
+<ol start="2">
+<li>Main window opens with the large yellow ‘Scan Now’ button visible and the quick scan option is selected by default. I then select the full scan option and click the yellow ‘Scan Now’ button.</li>
+</ol>
+<p><picture><source type="image/avif" srcset="/img/3eGu0HGy36-810.avif 810w"><source type="image/webp" srcset="/img/3eGu0HGy36-810.webp 810w"><img alt="Microsoft essentials program window" loading="lazy" decoding="async" src="/img/3eGu0HGy36-810.jpeg" width="810" height="570"></picture>
+<picture><source type="image/avif" srcset="/img/4EUbitOdZe-808.avif 808w"><source type="image/webp" srcset="/img/4EUbitOdZe-808.webp 808w"><img alt="Microsoft essentials program window" loading="lazy" decoding="async" src="/img/4EUbitOdZe-808.jpeg" width="808" height="571"></picture></p>
+<ol start="3">
+<li>You notice that a quick scan has been started.</li>
+</ol>
+<p><picture><source type="image/avif" srcset="/img/0ISc7UCtaB-817.avif 817w"><source type="image/webp" srcset="/img/0ISc7UCtaB-817.webp 817w"><img alt="Microsoft essentials program window" loading="lazy" decoding="async" src="/img/0ISc7UCtaB-817.jpeg" width="817" height="570"></picture></p>
+<ol start="4">
+<li>After cancelling the scan I made sure the full scan option was selected and then clicked on the regular scan now button. This time a full scan is started.</li>
+</ol>
+<p><picture><source type="image/avif" srcset="/img/dad4ylp7hX-819.avif 819w"><source type="image/webp" srcset="/img/dad4ylp7hX-819.webp 819w"><img alt="Microsoft essentials program window" loading="lazy" decoding="async" src="/img/dad4ylp7hX-819.jpeg" width="819" height="582"></picture>
+<picture><source type="image/avif" srcset="/img/ieOSwNgp7z-808.avif 808w"><source type="image/webp" srcset="/img/ieOSwNgp7z-808.webp 808w"><img alt="Microsoft essentials program window" loading="lazy" decoding="async" src="/img/ieOSwNgp7z-808.jpeg" width="808" height="574"></picture></p>
+
+</div>
+
+
+        
+
+<nav class="pagination is-centered" role="navigation" aria-label="pagination">
+  <a class="pagination-previous">Previous</a>
+  <a class="pagination-next">Next</a>
+</nav>        
+        </main>
+      </div>   
+         
+    </section>
+  <footer class="footer is-white">
+    <div class="content has-text-centered">
+      <p>Copyright 2023</p>
+    </div>
+  </footer>
+  <script>
+    feather.replace();
+  </script>
+  </body>
+</html>
