@@ -2,8 +2,15 @@
 layout: layouts/base.njk
 ---
 
+<div class="section is-paddingless-horizontal" style="padding-top: 0; margin-top: 0;">
+    <h1 class="title is-2">{{title}}</h1>
+</div>
 
-{{ content | safe }}
+<div class="content is-medium">
+  {{ content | safe }}
+</div>
+
+
         
 
 <nav class="pagination is-centered" role="navigation" aria-label="pagination">

@@ -2,7 +2,7 @@
 title: "Lorem ipsum dolor sit amet consectetur 5"
 description: "Ipsum corporis eius adipisci esse voluptatem? Maiores nulla est adipisci quisquam"
 date: 2023-10-20
-tag: 
+tags: 
     - car
 ---
 
