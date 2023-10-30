@@ -1,12 +1,15 @@
 ---
-tags: ["instagram","hipstamatic","mobile"]
-categories: ["photography","application"]
-date: "2011-07-11T00:00:00Z"
 title: "Things I Like About Instagram Hipstamatic"
-keywords: ["tech","instagram","hipstamatic","mobile"]
+description: "Summary or brief description of the post to be displayed"
+date: 2011-07-09
+tags: 
+    - tech
+    - instagram
+    - hipstamatic
+    - mobile
 ---
 
-![Shows a old film camera on two books.](./nadine-primeau-EqVVXFYbD_4-unsplash.jpg)
+{% image "./nadine-primeau-EqVVXFYbD_4-unsplash.jpg", "Shows a old film camera on two books" %}
 
 In the last couple of months I have been getting into iPhone photography or as it is more popularly known as iPhoneography. 
 I started out by using Instagram and have now graduated to using both Instagram and Hipstamatic. 

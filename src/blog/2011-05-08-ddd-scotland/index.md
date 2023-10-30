@@ -1,12 +1,14 @@
 ---
-keywords: ["tech", "ddd", "scotland"]
-tags: [".net","development", "conference"]
-categories: ["conference","development"]
-date: "2011-05-08T00:00:00Z"
 title: "Developer Developer, Developer Scotland 2011"
+description: "Summary or brief description of the post to be displayed"
+date: 2011-05-08
+tags: 
+    - ddd
+    - tech
+    - scotland
 ---
 
-![Shows a conference with stage and people.](./neonbrand-1-aA2Fadydc-unsplash.jpg)
+{% image "./neonbrand-1-aA2Fadydc-unsplash.jpg", "Shows a conference with stage and people" %}
 
 Yesterday I attended the Developer, Developer, Developer event in Glasgow. It was the first time I have been to a DDD event and I have to say I thoroughly enjoyed it. The event was well organised and the content in the sessions were excellent. The event thoroughly exceeded my expectations. There were so many interesting sessions that if I had the chance I would have attended them all.
 

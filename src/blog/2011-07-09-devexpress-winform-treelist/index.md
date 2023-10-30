@@ -1,12 +1,14 @@
 ---
-tags: ["devexpress","treelist","code","c#","development"]
-categories: ["development","code","c#"]
-date: "2011-07-09T00:00:00Z"
 title: "Using Devexpress Winforms Treelist Control"
-keywords: ["development","code","c#"]
+description: "Summary or brief description of the post to be displayed"
+date: 2011-07-09
+tags: 
+    - development
+    - code
+    - c#
 ---
 
-![Shows windows computer destop with a software installation window.](./jeremy-zero-Vu2R3PqstrU-unsplash.jpg)
+{% image "./jeremy-zero-Vu2R3PqstrU-unsplash.jpg", "Shows windows computer destop with a software installation window" %}
 
 I have been using the DevExpress WinForms & ASP.Net controls at work. I have been surprised by the many useful features that you get straight out of the box. I mostly work with the ASP.Net controls, but recently I have been using the DevExpress TreeList WinForm controls. 
 

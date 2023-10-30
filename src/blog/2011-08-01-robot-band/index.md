@@ -1,12 +1,14 @@
 ---
-tags: ["tech","robot","geek"]
-categories: ["tech","robot"]
-date: "2011-08-01T00:00:00Z"
 title: "Robot Band On Engadget"
-keywords: ["tech","robot","geek"]
+description: "Summary or brief description of the post to be displayed"
+date: 2011-08-01
+tags: 
+    - tech
+    - robot
+    - geek
 ---
 
-![Web browser showing the you tube web site.](./nordwood-themes-8LfE0Lywyak-unsplash.jpg)
+{% image "./nordwood-themes-8LfE0Lywyak-unsplash.jpg", "Web browser showing the you tube web site" %}
 
 Couple of weeks ago I came across this post on the engadget website about a [robotic band called ‘End of Life’](https://www.engadget.com/2011/07/18/robot-band-covers-marilyn-manson-renders-sullen-teenagers-obsol/). 
 The video shows the band covering ‘The Beautiful People’ by Marilyn Manson. I thought it was extremely cool.

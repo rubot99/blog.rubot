@@ -1,12 +1,14 @@
 ---
-tags: ["mercurial","source control","development"]
-categories: ["development","source control"]
-date: "2011-04-20T00:00:00Z"
 title: "Setting Up Mercurial Dev Shop"
-keywords: ["development","mercurial","source control"]
+description: "Summary or brief description of the post to be displayed"
+date: 2011-04-20
+tags: 
+    - development
+    - mercurial
+    - source control
 ---
 
-![Shows a software development office, with developers coding.](./sigmund-zBfBXHCaLmk-unsplash.jpg)
+{% image "./sigmund-zBfBXHCaLmk-unsplash.jpg", "Shows a software development office, with developers coding" %}
 
 For a long time I have wanted to use a distributed source control management tool at work. I have looked at both Mercurial and Git and decided that I would like try Mercurial. So recently I have had the opportunity to use Mercurial on a new project.
 
