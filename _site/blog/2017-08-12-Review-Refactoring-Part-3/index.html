@@ -33,7 +33,12 @@
           
 <div class="section is-paddingless-horizontal" style="padding-top: 0; margin-top: 0;">
     <h1 class="title is-2">Review - Refactoring - Improving the design of existing code - Part 3</h1>
+    <p class="has-text-dark-grey" datetime="Invalid DateTime">August 12, 2017</p>
+
+    <div class="tags pt-4"><span class="tag is-info">book</span><span class="tag is-info">software</span><span class="tag is-info">development</span><span class="tag is-info">refactoring</span></div>
 </div>
+
+
 
 <div class="content is-medium">
   <p><picture><source type="image/avif" srcset="/img/bwX42LIho7-1971.avif 1971w"><source type="image/webp" srcset="/img/bwX42LIho7-1971.webp 1971w"><img alt="Shows a desk with refactoring book by martin fowler" loading="lazy" decoding="async" src="/img/bwX42LIho7-1971.jpeg" width="1971" height="1769"></picture></p>
@@ -47,9 +52,6 @@ So far we have mentioned splitting classes and methods, but sometimes you will n
 If there are classes that only pass information from one class to a client, then it might be worth removing the middleman class. Remove unwanted abstraction that is not required. Temporary fields are also another form of code smell and make code to be difficult to debug and modify. Data model class might be considered also as code smells. Poor inheritance is a code smell this is where class inherits behaviours from a super class that it does not require. Classes that overly use another classes private methods and variable is a break of the encapsulation rule. Finally comments can be a code smell, instead of simplifying complex code the use of comments is a way to allow the reader to understand it better. Often code is modified but the comments aren’t which will causes further complications for the reader.</p>
 
 </div>
-
-
-        
 
 <nav class="pagination is-centered" role="navigation" aria-label="pagination">
   <a class="pagination-previous">Previous</a>
