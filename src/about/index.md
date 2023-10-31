@@ -14,8 +14,8 @@ layout: layouts/base.njk
                 <h1 class="title is-2">Hi.</h3>
             </div>
         </article>
-        <p class="pt-4">I’m Reuben — my main fo­cus right now is build­ing Phantom as co-founder and CTO. 
-            In my free time you’ll ﬁnd me hack­ing, run­ning, lift­ing, schem­ing, read­ing, or in the meta­verse. 
-            I’m also into star­tups, and ob­sessed with crypto.</p>
+        <p class="pt-4">I’m Reuben — a software engineer living in Newcastle upon Tyne. 
+    I'm interested in cloud development, distributed systems and information security. 
+    I do enjoy tinkering with linux distros and smart home technologies</p>
     </div>
 </section>
