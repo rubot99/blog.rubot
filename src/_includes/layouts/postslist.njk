@@ -3,7 +3,7 @@
     <a href="{{ post.url }}"><h1 class="title is-4 has-text-info">{{ post.data.title }}</h1></a>
     <div class="content is-2">
       <p class="has-text-dark-grey pt-2" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL dd, yyyy") }}</p>
-      <p class="pb-4">{{ post.data.description }}</p>            
+      <p>{{ post.data.description }}</p>            
       <div class="tags pb-4">
         {%- for tag in post.data.tags | filterTagList -%}
           <span class="tag is-info">{{ tag }}</span>
