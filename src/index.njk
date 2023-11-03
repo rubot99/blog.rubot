@@ -1,0 +1,22 @@
+---
+layout: layouts/home.njk
+numberOfLatestPostsToShow: 3
+---
+
+<div class="section is-paddingless-horizontal" style="padding-top: 0;">
+  <nav class="level">
+    <div class="level-left">
+      <div class="level-item"><p class="title is-4 has-text-info-dark">Lastest Posts</p></div>
+    </div>          
+    <div class="level-right">
+      <p class="level-item"><a href="posts">Read all Posts</a></p>
+    </div>
+  </nav>
+  <hr />
+  
+
+  {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+  {% include "layouts/postslist.njk" %}
+
+</div>
+

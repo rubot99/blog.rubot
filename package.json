@@ -1,0 +1,23 @@
+{
+  "name": "blog.rubot",
+  "version": "1.0.0",
+  "description": "Software engineering and Technology blog built with eleventy",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.6"
+  },
+  "dependencies": {
+    "luxon": "^3.4.3"
+  }
+}
