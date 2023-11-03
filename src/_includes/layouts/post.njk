@@ -3,12 +3,12 @@ layout: layouts/base.njk
 ---
 
 <div class="section is-paddingless-horizontal" style="padding-top: 0; margin-top: 0;">
-    <h1 class="title is-2">{{title}}</h1>
+    <h1 class="title is-2 has-text-grey-darker">{{title}}</h1>
     <p class="has-text-dark-grey" datetime="{{ post.date | htmlDateString }}">{{ date | readableDate("LLLL dd, yyyy") }}</p>
 
     <div class="tags pt-4">
       {%- for tag in tags | filterTagList -%}
-        <span class="tag is-info">{{ tag }}</span>
+        <span class="tag is-info is-light">{{ tag }}</span>
       {%- endfor -%}        
     </div>
 </div>
